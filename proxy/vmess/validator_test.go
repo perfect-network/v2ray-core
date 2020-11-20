@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/common/uuid"
-	. "v2ray.com/core/proxy/vmess"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/protocol"
+	"github.com/perfect-network/v2ray-core/common/serial"
+	"github.com/perfect-network/v2ray-core/common/uuid"
+	. "github.com/perfect-network/v2ray-core/proxy/vmess"
 )
 
 func toAccount(a *Account) protocol.Account {

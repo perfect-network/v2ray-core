@@ -6,12 +6,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	. "v2ray.com/core/common/mux"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/transport/pipe"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	. "github.com/perfect-network/v2ray-core/common/mux"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/protocol"
+	"github.com/perfect-network/v2ray-core/transport/pipe"
 )
 
 func readAll(reader buf.Reader) (buf.MultiBuffer, error) {

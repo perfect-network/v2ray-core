@@ -2,7 +2,7 @@
 
 package dns
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -13,17 +13,17 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/router"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/strmatcher"
-	"v2ray.com/core/common/uuid"
-	"v2ray.com/core/features"
-	"v2ray.com/core/features/dns"
-	"v2ray.com/core/features/routing"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/app/router"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/errors"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/session"
+	"github.com/perfect-network/v2ray-core/common/strmatcher"
+	"github.com/perfect-network/v2ray-core/common/uuid"
+	"github.com/perfect-network/v2ray-core/features"
+	"github.com/perfect-network/v2ray-core/features/dns"
+	"github.com/perfect-network/v2ray-core/features/routing"
 )
 
 // Server is a DNS rely server.

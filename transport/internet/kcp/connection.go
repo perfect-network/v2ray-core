@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/signal"
-	"v2ray.com/core/common/signal/semaphore"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/signal"
+	"github.com/perfect-network/v2ray-core/common/signal/semaphore"
 )
 
 var (

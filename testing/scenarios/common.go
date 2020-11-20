@@ -14,15 +14,15 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core"
-	"v2ray.com/core/app/dispatcher"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/log"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/retry"
-	"v2ray.com/core/common/serial"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/app/dispatcher"
+	"github.com/perfect-network/v2ray-core/app/proxyman"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/errors"
+	"github.com/perfect-network/v2ray-core/common/log"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/retry"
+	"github.com/perfect-network/v2ray-core/common/serial"
 )
 
 func xor(b []byte) []byte {

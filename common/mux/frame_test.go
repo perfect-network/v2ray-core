@@ -3,10 +3,10 @@ package mux_test
 import (
 	"testing"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/mux"
-	"v2ray.com/core/common/net"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/mux"
+	"github.com/perfect-network/v2ray-core/common/net"
 )
 
 func BenchmarkFrameWrite(b *testing.B) {

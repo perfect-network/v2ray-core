@@ -2,16 +2,16 @@
 
 package command
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
 
 	grpc "google.golang.org/grpc"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/log"
-	"v2ray.com/core/common"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/app/log"
+	"github.com/perfect-network/v2ray-core/common"
 )
 
 type LoggerServer struct {

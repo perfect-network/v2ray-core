@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/uuid"
+	"github.com/perfect-network/v2ray-core/common/protocol"
+	"github.com/perfect-network/v2ray-core/common/uuid"
 )
 
 // Validator stores valid VLESS users.

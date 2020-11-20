@@ -2,17 +2,17 @@
 
 package router
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common"
-	"v2ray.com/core/features/dns"
-	"v2ray.com/core/features/outbound"
-	"v2ray.com/core/features/routing"
-	routing_dns "v2ray.com/core/features/routing/dns"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/features/dns"
+	"github.com/perfect-network/v2ray-core/features/outbound"
+	"github.com/perfect-network/v2ray-core/features/routing"
+	routing_dns "github.com/perfect-network/v2ray-core/features/routing/dns"
 )
 
 // Router is an implementation of routing.Router.

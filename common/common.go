@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"v2ray.com/core/common/errors"
+	"github.com/perfect-network/v2ray-core/common/errors"
 )
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 var (
 	// ErrNoClue is for the situation that existing information is not enough to make a decision. For example, Router may return this error when there is no suitable route.

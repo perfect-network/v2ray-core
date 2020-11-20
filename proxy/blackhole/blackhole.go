@@ -3,15 +3,15 @@
 // Package blackhole is an outbound handler that blocks all connections.
 package blackhole
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/transport"
-	"v2ray.com/core/transport/internet"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/transport"
+	"github.com/perfect-network/v2ray-core/transport/internet"
 )
 
 // Handler is an outbound connection that silently swallow the entire payload.

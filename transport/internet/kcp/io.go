@@ -7,9 +7,9 @@ import (
 	"crypto/rand"
 	"io"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/transport/internet"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/transport/internet"
 )
 
 type PacketReader interface {

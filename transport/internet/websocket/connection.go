@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/serial"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/errors"
+	"github.com/perfect-network/v2ray-core/common/serial"
 )
 
 var (

@@ -1,17 +1,17 @@
 package inbound
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
 	"sync"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/features/inbound"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/app/proxyman"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/serial"
+	"github.com/perfect-network/v2ray-core/common/session"
+	"github.com/perfect-network/v2ray-core/features/inbound"
 )
 
 // Manager is to manage all inbound handlers.

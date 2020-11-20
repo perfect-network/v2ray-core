@@ -1,17 +1,17 @@
 package outbound
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
 	"strings"
 	"sync"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/features/outbound"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/app/proxyman"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/errors"
+	"github.com/perfect-network/v2ray-core/features/outbound"
 )
 
 // Manager is to manage all outbound handlers.

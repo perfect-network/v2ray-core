@@ -4,8 +4,8 @@ import (
 	"flag"
 	"os"
 
+	"github.com/perfect-network/v2ray-core/common"
 	"github.com/v2fly/VSign/signerVerify"
-	"v2ray.com/core/common"
 )
 
 type VerifyCommand struct{}

@@ -5,17 +5,17 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/common/platform/filesystem"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/domainsocket"
-	"v2ray.com/core/transport/internet/http"
-	"v2ray.com/core/transport/internet/kcp"
-	"v2ray.com/core/transport/internet/quic"
-	"v2ray.com/core/transport/internet/tcp"
-	"v2ray.com/core/transport/internet/tls"
-	"v2ray.com/core/transport/internet/websocket"
+	"github.com/perfect-network/v2ray-core/common/platform/filesystem"
+	"github.com/perfect-network/v2ray-core/common/protocol"
+	"github.com/perfect-network/v2ray-core/common/serial"
+	"github.com/perfect-network/v2ray-core/transport/internet"
+	"github.com/perfect-network/v2ray-core/transport/internet/domainsocket"
+	"github.com/perfect-network/v2ray-core/transport/internet/http"
+	"github.com/perfect-network/v2ray-core/transport/internet/kcp"
+	"github.com/perfect-network/v2ray-core/transport/internet/quic"
+	"github.com/perfect-network/v2ray-core/transport/internet/tcp"
+	"github.com/perfect-network/v2ray-core/transport/internet/tls"
+	"github.com/perfect-network/v2ray-core/transport/internet/websocket"
 )
 
 var (

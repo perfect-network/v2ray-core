@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol/udp"
-	"v2ray.com/core/features/routing"
-	"v2ray.com/core/transport"
-	. "v2ray.com/core/transport/internet/udp"
-	"v2ray.com/core/transport/pipe"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/protocol/udp"
+	"github.com/perfect-network/v2ray-core/features/routing"
+	"github.com/perfect-network/v2ray-core/transport"
+	. "github.com/perfect-network/v2ray-core/transport/internet/udp"
+	"github.com/perfect-network/v2ray-core/transport/pipe"
 )
 
 type TestDispatcher struct {

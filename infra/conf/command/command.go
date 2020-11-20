@@ -1,14 +1,14 @@
 package command
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/common"
-	"v2ray.com/core/infra/conf/serial"
-	"v2ray.com/core/infra/control"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/infra/conf/serial"
+	"github.com/perfect-network/v2ray-core/infra/control"
 )
 
 type ConfigCommand struct{}

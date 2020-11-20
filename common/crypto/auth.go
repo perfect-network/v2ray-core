@@ -5,10 +5,10 @@ import (
 	"io"
 	"math/rand"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/bytespool"
-	"v2ray.com/core/common/protocol"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/bytespool"
+	"github.com/perfect-network/v2ray-core/common/protocol"
 )
 
 type BytesGenerator func() []byte

@@ -1,11 +1,11 @@
 package dns
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/features/dns"
-	"v2ray.com/core/features/routing"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/features/dns"
+	"github.com/perfect-network/v2ray-core/features/routing"
 )
 
 // ResolvableContext is an implementation of routing.Context, with domain resolving capability.

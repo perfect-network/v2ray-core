@@ -8,15 +8,15 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/perfect-network/v2ray-core/app/router"
+	. "github.com/perfect-network/v2ray-core/app/router/command"
+	"github.com/perfect-network/v2ray-core/app/stats"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/features/routing"
+	"github.com/perfect-network/v2ray-core/testing/mocks"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
-	"v2ray.com/core/app/router"
-	. "v2ray.com/core/app/router/command"
-	"v2ray.com/core/app/stats"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/features/routing"
-	"v2ray.com/core/testing/mocks"
 )
 
 func TestServiceSubscribeRoutingStats(t *testing.T) {

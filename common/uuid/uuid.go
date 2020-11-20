@@ -1,12 +1,12 @@
-package uuid // import "v2ray.com/core/common/uuid"
+package uuid
 
 import (
 	"bytes"
 	"crypto/rand"
 	"encoding/hex"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/errors"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/errors"
 )
 
 var (

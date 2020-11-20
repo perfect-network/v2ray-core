@@ -1,6 +1,6 @@
 package quic
 
-import "v2ray.com/core/common/errors"
+import "github.com/perfect-network/v2ray-core/common/errors"
 
 type errPathObjHolder struct{}
 

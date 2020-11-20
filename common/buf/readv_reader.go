@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"syscall"
 
-	"v2ray.com/core/common/platform"
+	"github.com/perfect-network/v2ray-core/common/platform"
 )
 
 type allocStrategy struct {

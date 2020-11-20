@@ -8,12 +8,12 @@ package core
 
 import (
 	proto "github.com/golang/protobuf/proto"
+	serial "github.com/perfect-network/v2ray-core/common/serial"
+	transport "github.com/perfect-network/v2ray-core/transport"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	serial "v2ray.com/core/common/serial"
-	transport "v2ray.com/core/transport"
 )
 
 const (

@@ -3,13 +3,13 @@ package conf_test
 import (
 	"testing"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/serial"
-	. "v2ray.com/core/infra/conf"
-	"v2ray.com/core/proxy/vmess"
-	"v2ray.com/core/proxy/vmess/inbound"
-	"v2ray.com/core/proxy/vmess/outbound"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/protocol"
+	"github.com/perfect-network/v2ray-core/common/serial"
+	. "github.com/perfect-network/v2ray-core/infra/conf"
+	"github.com/perfect-network/v2ray-core/proxy/vmess"
+	"github.com/perfect-network/v2ray-core/proxy/vmess/inbound"
+	"github.com/perfect-network/v2ray-core/proxy/vmess/outbound"
 )
 
 func TestVMessOutbound(t *testing.T) {

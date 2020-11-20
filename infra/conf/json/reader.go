@@ -3,7 +3,7 @@ package json
 import (
 	"io"
 
-	"v2ray.com/core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/buf"
 )
 
 // State is the internal state of parser.

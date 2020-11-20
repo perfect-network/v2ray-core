@@ -8,11 +8,11 @@ package transport
 
 import (
 	proto "github.com/golang/protobuf/proto"
+	internet "github.com/perfect-network/v2ray-core/transport/internet"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	internet "v2ray.com/core/transport/internet"
 )
 
 const (

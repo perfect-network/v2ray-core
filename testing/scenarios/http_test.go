@@ -13,16 +13,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/proxy/freedom"
-	v2http "v2ray.com/core/proxy/http"
-	v2httptest "v2ray.com/core/testing/servers/http"
-	"v2ray.com/core/testing/servers/tcp"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/app/proxyman"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/serial"
+	"github.com/perfect-network/v2ray-core/proxy/freedom"
+	v2http "github.com/perfect-network/v2ray-core/proxy/http"
+	v2httptest "github.com/perfect-network/v2ray-core/testing/servers/http"
+	"github.com/perfect-network/v2ray-core/testing/servers/tcp"
 )
 
 func TestHttpConformance(t *testing.T) {

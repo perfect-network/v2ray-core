@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	. "v2ray.com/core/common"
+	. "github.com/perfect-network/v2ray-core/common"
 )
 
 type TConfig struct {

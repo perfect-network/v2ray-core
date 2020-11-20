@@ -8,14 +8,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol/tls/cert"
-	"v2ray.com/core/testing/servers/tcp"
-	"v2ray.com/core/transport/internet"
-	. "v2ray.com/core/transport/internet/http"
-	"v2ray.com/core/transport/internet/tls"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/protocol/tls/cert"
+	"github.com/perfect-network/v2ray-core/testing/servers/tcp"
+	"github.com/perfect-network/v2ray-core/transport/internet"
+	. "github.com/perfect-network/v2ray-core/transport/internet/http"
+	"github.com/perfect-network/v2ray-core/transport/internet/tls"
 )
 
 func TestHTTPConnection(t *testing.T) {

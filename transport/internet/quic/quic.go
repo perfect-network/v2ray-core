@@ -3,11 +3,11 @@
 package quic
 
 import (
-	"v2ray.com/core/common"
-	"v2ray.com/core/transport/internet"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/transport/internet"
 )
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 // Here is some modification needs to be done before update quic vendor.
 // * use bytespool in buffer_pool.go

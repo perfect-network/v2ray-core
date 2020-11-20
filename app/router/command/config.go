@@ -3,8 +3,8 @@ package command
 import (
 	"strings"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/features/routing"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/features/routing"
 )
 
 // routingContext is an wrapper of protobuf RoutingContext as implementation of routing.Context and routing.Route.

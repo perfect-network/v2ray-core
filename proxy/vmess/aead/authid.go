@@ -12,8 +12,8 @@ import (
 	"math"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/antireplay"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/antireplay"
 )
 
 var (

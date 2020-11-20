@@ -14,16 +14,16 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/protocol/dns"
+	"github.com/perfect-network/v2ray-core/common/session"
+	"github.com/perfect-network/v2ray-core/common/signal/pubsub"
+	"github.com/perfect-network/v2ray-core/common/task"
+	dns_feature "github.com/perfect-network/v2ray-core/features/dns"
+	"github.com/perfect-network/v2ray-core/features/routing"
+	"github.com/perfect-network/v2ray-core/transport/internet"
 	"golang.org/x/net/dns/dnsmessage"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol/dns"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/signal/pubsub"
-	"v2ray.com/core/common/task"
-	dns_feature "v2ray.com/core/features/dns"
-	"v2ray.com/core/features/routing"
-	"v2ray.com/core/transport/internet"
 )
 
 // DoHNameServer implemented DNS over HTTPS (RFC8484) Wire Format,

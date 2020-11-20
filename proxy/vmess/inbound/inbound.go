@@ -2,7 +2,7 @@
 
 package inbound
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -11,23 +11,23 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/log"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/signal"
-	"v2ray.com/core/common/task"
-	"v2ray.com/core/common/uuid"
-	feature_inbound "v2ray.com/core/features/inbound"
-	"v2ray.com/core/features/policy"
-	"v2ray.com/core/features/routing"
-	"v2ray.com/core/proxy/vmess"
-	"v2ray.com/core/proxy/vmess/encoding"
-	"v2ray.com/core/transport/internet"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/errors"
+	"github.com/perfect-network/v2ray-core/common/log"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/protocol"
+	"github.com/perfect-network/v2ray-core/common/session"
+	"github.com/perfect-network/v2ray-core/common/signal"
+	"github.com/perfect-network/v2ray-core/common/task"
+	"github.com/perfect-network/v2ray-core/common/uuid"
+	feature_inbound "github.com/perfect-network/v2ray-core/features/inbound"
+	"github.com/perfect-network/v2ray-core/features/policy"
+	"github.com/perfect-network/v2ray-core/features/routing"
+	"github.com/perfect-network/v2ray-core/proxy/vmess"
+	"github.com/perfect-network/v2ray-core/proxy/vmess/encoding"
+	"github.com/perfect-network/v2ray-core/transport/internet"
 )
 
 type userByEmail struct {

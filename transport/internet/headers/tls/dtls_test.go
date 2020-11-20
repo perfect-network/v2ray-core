@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	. "v2ray.com/core/transport/internet/headers/tls"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	. "github.com/perfect-network/v2ray-core/transport/internet/headers/tls"
 )
 
 func TestDTLSWrite(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"syscall"
 
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/session"
 	"github.com/pires/go-proxyproto"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
 )
 
 var (

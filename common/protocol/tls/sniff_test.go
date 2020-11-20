@@ -3,7 +3,7 @@ package tls_test
 import (
 	"testing"
 
-	. "v2ray.com/core/common/protocol/tls"
+	. "github.com/perfect-network/v2ray-core/common/protocol/tls"
 )
 
 func TestTLSHeaders(t *testing.T) {

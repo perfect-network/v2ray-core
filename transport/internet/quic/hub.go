@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/lucas-clemente/quic-go"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol/tls/cert"
-	"v2ray.com/core/common/signal/done"
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/tls"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/protocol/tls/cert"
+	"github.com/perfect-network/v2ray-core/common/signal/done"
+	"github.com/perfect-network/v2ray-core/transport/internet"
+	"github.com/perfect-network/v2ray-core/transport/internet/tls"
 )
 
 // Listener is an internet.Listener that listens for TCP connections.

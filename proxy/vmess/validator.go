@@ -11,12 +11,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/dice"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/common/task"
-	"v2ray.com/core/proxy/vmess/aead"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/dice"
+	"github.com/perfect-network/v2ray-core/common/protocol"
+	"github.com/perfect-network/v2ray-core/common/serial"
+	"github.com/perfect-network/v2ray-core/common/task"
+	"github.com/perfect-network/v2ray-core/proxy/vmess/aead"
 )
 
 const (

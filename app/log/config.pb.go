@@ -8,11 +8,11 @@ package log
 
 import (
 	proto "github.com/golang/protobuf/proto"
+	log "github.com/perfect-network/v2ray-core/common/log"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	log "v2ray.com/core/common/log"
 )
 
 const (

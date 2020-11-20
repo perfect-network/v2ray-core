@@ -2,7 +2,7 @@
 
 package commander
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -11,10 +11,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/signal/done"
-	"v2ray.com/core/features/outbound"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/signal/done"
+	"github.com/perfect-network/v2ray-core/features/outbound"
 )
 
 // Commander is a V2Ray feature that provides gRPC methods to external clients.

@@ -1,4 +1,4 @@
-module v2ray.com/core
+module github.com/perfect-network/v2ray-core
 
 go 1.15
 

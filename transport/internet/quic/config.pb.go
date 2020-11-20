@@ -8,12 +8,12 @@ package quic
 
 import (
 	proto "github.com/golang/protobuf/proto"
+	protocol "github.com/perfect-network/v2ray-core/common/protocol"
+	serial "github.com/perfect-network/v2ray-core/common/serial"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	protocol "v2ray.com/core/common/protocol"
-	serial "v2ray.com/core/common/serial"
 )
 
 const (

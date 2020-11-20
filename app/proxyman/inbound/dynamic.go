@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/common/dice"
-	"v2ray.com/core/common/mux"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/task"
-	"v2ray.com/core/proxy"
-	"v2ray.com/core/transport/internet"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/app/proxyman"
+	"github.com/perfect-network/v2ray-core/common/dice"
+	"github.com/perfect-network/v2ray-core/common/mux"
+	"github.com/perfect-network/v2ray-core/common/net"
+	"github.com/perfect-network/v2ray-core/common/task"
+	"github.com/perfect-network/v2ray-core/proxy"
+	"github.com/perfect-network/v2ray-core/transport/internet"
 )
 
 type DynamicInboundHandler struct {

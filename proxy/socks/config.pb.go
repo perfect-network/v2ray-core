@@ -8,12 +8,12 @@ package socks
 
 import (
 	proto "github.com/golang/protobuf/proto"
+	net "github.com/perfect-network/v2ray-core/common/net"
+	protocol "github.com/perfect-network/v2ray-core/common/protocol"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	net "v2ray.com/core/common/net"
-	protocol "v2ray.com/core/common/protocol"
 )
 
 const (

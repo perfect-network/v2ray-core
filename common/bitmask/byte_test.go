@@ -3,7 +3,7 @@ package bitmask_test
 import (
 	"testing"
 
-	. "v2ray.com/core/common/bitmask"
+	. "github.com/perfect-network/v2ray-core/common/bitmask"
 )
 
 func TestBitmaskByte(t *testing.T) {

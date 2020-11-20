@@ -5,9 +5,9 @@ package commander
 import (
 	"context"
 
+	"github.com/perfect-network/v2ray-core/common"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
-	"v2ray.com/core/common"
 )
 
 // Service is a Commander service.

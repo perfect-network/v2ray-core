@@ -2,7 +2,7 @@
 
 package command
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/perfect-network/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -11,11 +11,11 @@ import (
 
 	grpc "google.golang.org/grpc"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/stats"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/strmatcher"
-	feature_stats "v2ray.com/core/features/stats"
+	"github.com/perfect-network/v2ray-core"
+	"github.com/perfect-network/v2ray-core/app/stats"
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/strmatcher"
+	feature_stats "github.com/perfect-network/v2ray-core/features/stats"
 )
 
 // statsServer is an implementation of StatsService.

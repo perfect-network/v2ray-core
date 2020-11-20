@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "v2ray.com/core/common/strmatcher"
+	. "github.com/perfect-network/v2ray-core/common/strmatcher"
 )
 
 func TestDomainMatcherGroup(t *testing.T) {

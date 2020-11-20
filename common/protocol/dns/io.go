@@ -4,10 +4,10 @@ import (
 	"encoding/binary"
 	"sync"
 
+	"github.com/perfect-network/v2ray-core/common"
+	"github.com/perfect-network/v2ray-core/common/buf"
+	"github.com/perfect-network/v2ray-core/common/serial"
 	"golang.org/x/net/dns/dnsmessage"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/serial"
 )
 
 func PackMessage(msg *dnsmessage.Message) (*buf.Buffer, error) {
